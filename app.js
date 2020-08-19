@@ -23,4 +23,4 @@ function SkillMatch(jobCharacter =[],indivSkill=[]){
     }
 }
 
-SkillMatch(["notremote","flexible"],["flexible","remote"]);
+SkillMatch(["remote","parttime","flexible"],["flexible","remote"]);
