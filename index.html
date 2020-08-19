@@ -5,6 +5,27 @@
     </head>
     <body>
         <h1 style="text-align: center;">TechReturner Coding Challenge</h1>
+
+        <form class="" action="index.html" method="post"> 
+            <h3>Job Characteristics</h3>
+            <label>Remote/office:</label>
+            <input type="text" name="jobChar[]" value="" /><br><br>
+
+            <label>Flexible/Normal hours: </label>
+            <input type="text" name="jobChar[]" value="" /><br><br>
+
+            <h3>Individual Skillset</h3>
+            <label>Remote/Office:</label>
+            <input type="text" name="indivSkill[]" value="" /><br><br> 
+
+            <label>React/Angular/Vue:</label>
+            <input type="text" name="indivSkill[]" value="" /><br><br> 
+            <button type="button" name="button" onclick="SkillMatch()"> 
+                Match Score 
+            </button> 
+        </form> 
+
+        <h3 id ="result"></h3>
         <script src="app.js" />
     </body>
 </html>
